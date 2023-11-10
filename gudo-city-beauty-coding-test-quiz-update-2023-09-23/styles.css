@@ -24,10 +24,14 @@
 }
 
 
+
+
 body{
     background-color: #0c233f;
     margin: 0;
     display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 
 .intro-page{
@@ -87,6 +91,10 @@ body{
     text-transform: capitalize;
     font-size: 25px;
     line-height: 29px;
+}
+
+.goals a{
+    text-decoration: none;
 }
 
 .goals .crepey-skin{
@@ -195,4 +203,70 @@ body{
 
 .firmer-skin:hover{
     border: #eaca7e solid 2px;
+}
+
+.pg1-logo{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pg1-logo .logo-pg1{
+    position: relative;
+    width: 60%;
+    padding-top: 20px;
+}
+
+.progress-container{
+    position: relative;
+    top: 70px;
+}
+ 
+.progress-container .btn-back{
+    position: relative;
+    left: -15%;
+    top: 25px;
+    width: 30px;
+    height: 25px;
+    background-color: #556579;
+    color: #fff;
+    font-size: 22px;
+    border: 0; 
+    cursor: pointer; 
+}
+
+.progress{
+    position: relative;
+}
+
+.progress-count{
+    position: relative;
+    width: 250px;
+    top: -10px;
+}
+
+.progress-count .progress-status{
+    position: relative;
+    display: block;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    color: #fff;
+    left: 270px;
+    top: 12px
+}
+
+.progress-bar{
+    height: 8px;
+    width: 100%;
+    background: rgba(0,0,0,0.1)
+
+}
+
+.progress-bar .bar{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 16.6%;
+    background: #eaca7e;
 }
