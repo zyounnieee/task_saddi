@@ -23,250 +23,507 @@
     src: local('Open Sans Bold'), local('OpenSans-Bold'), url(assets/fonts/open_sans/OpenSans-bold.woff) format('woff');
 }
 
+@media only screen and  (max-width: 480px){
+    body{
+        background-color: #0c233f;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .intro-page{
+        position: relative;
+    }
+
+    .intro-logo{
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro-logo .logo{
+        position: relative;
+        width: 25%;
+        padding-top: 10px;
+    }
+
+    .intro-content{
+        position: relative;
+        top: 0px;
+        margin: 20px;
+    }
+
+    .intro-content .intro-h1{
+        position: relative;
+        font-style: normal;
+        font-weight: 700;
+        src: local('Open Sans Bold'), local('OpenSans-Bold'), url(assets/fonts/open_sans/OpenSans-bold.woff) format('woff');
+        color: #fff;
+        text-transform: capitalize;
+        text-align: left;
+        font-size: 40px;
+        line-height: 46px;
+        margin: 0;
+    }
+
+    .intro-content .intro-p{
+        position: relative;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 300;
+        src: local('Open Sans Light'), local('OpenSans-Light'), url(assets/fonts/open_sans/OpenSans-light.woff) format('woff');
+        color: #fff;
+        font-size: 16px;
+        line-height: 25px;
+        margin: 0;
+    }
+
+    .intro-content .intro-h2{
+        position: relative;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(assets/fonts/open_sans/OpenSans-semibold.woff) format('woff');
+        color: #fff;
+        text-transform: capitalize;
+        font-size: 25px;
+        line-height: 29px;
+    }
+
+    .goals a{
+        text-decoration: none;
+    }
+
+    .goals .crepey-skin{
+        position: relative;
+        background-color: #556579;
+        width: 100%;
+        height: 150px;
+        margin-bottom: 15px;
+        overflow: hidden;
+    }
+
+    .goals .flakey-skin{ 
+        position: relative;
+        background-color: #556579;
+        width: 100%;
+        height: 150px;
+        margin-bottom: 15px;
+        overflow: hidden;
+    }
+
+    .goals .firmer-skin{ 
+        position: relative;
+        background-color: #556579;
+        width: 100%;
+        height: 150px;
+        margin-bottom: 15px;
+        overflow: hidden;
+    }
+
+    .crepey-skin .crepey-h3{
+        position: relative;
+        text-transform: capitalize;
+        text-align: left;
+        color: #fff;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(assets/fonts/open_sans/OpenSans-semibold.woff) format('woff');
+        top: 30px;
+        margin-left: 25px;
+        width: 50%;
+    }
+
+    .crepey-skin .crepey-img{
+        position: absolute;
+        top: -1px;
+        height: 152px;
+        left: 35%;
+    }
+
+    .crepey-skin:hover{
+        border: #eaca7e solid 2px;
+        background-color: #394a62;
+    }
+
+    .flakey-skin .flakey-h3{
+        position: relative;
+        text-transform: capitalize;
+        text-align: left;
+        color: #fff;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(assets/fonts/open_sans/OpenSans-semibold.woff) format('woff');
+        top: 30px;
+        margin-left: 25px;
+        width: 50%;
+    }
+
+    .flakey-skin .flakey-img{
+        position: absolute;
+        top: -1px;
+        height: 152px;
+        left: 35%;
+    }
+
+    .flakey-skin:hover{
+        border: #eaca7e solid 2px;
+        background-color: #394a62;
+    }
+
+    .firmer-skin .firmer-h3{
+        position: relative;
+        text-transform: capitalize;
+        text-align: left;
+        color: #fff;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(assets/fonts/open_sans/OpenSans-semibold.woff) format('woff');
+        top: 20px;
+        margin-left: 25px;
+        width: 50%; 
+    }
+
+    .firmer-skin .firmer-img{
+        position: absolute;
+        top: -1px;
+        height: 152px;
+        left: 35%;
+    }
+
+    .firmer-skin:hover{
+        border: #eaca7e solid 2px;
+        background-color: #394a62;
+    }
+
+    .pg1-logo{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pg1-logo .logo-pg1{
+        position: relative;
+        width: 60%;
+        padding-top: 20px;
+    }
+
+    .progress-container{
+        position: relative;
+        top: 70px;
+    }
+    
+    .progress-container .btn-back{
+        position: relative;
+        left: -15%;
+        top: 25px;
+        width: 30px;
+        height: 25px;
+        background-color: #556579;
+        color: #fff;
+        font-size: 22px;
+        border: 0; 
+        cursor: pointer; 
+    }
+
+    .progress{
+        position: relative;
+    }
+
+    .progress-count{
+        position: relative;
+        width: 250px;
+        top: -43px;
+    }
+
+    .progress-count .progress-status {
+        position: relative;
+        display: block;
+        font-size: 15px;
+        font-family: 'Open Sans';
+        color: #fff;
+        left: 260px;
+        top: 30px;
+        width: 0;
+    }
+
+    .progress-bar{
+        height: 12px;
+        width: 100%;
+        background: rgba(0,0,0,0.1)
+
+    }
+
+    .progress-bar .bar{
+        position: relative;
+        display: block;
+        height: 100%;
+        width: 16.6%;
+        background: #eaca7e;
+    }
+
+    .quiz-container{
+        position: absolute;
+        top: 120px;
+        display: grid;
+    }
+
+    .quiz-container h2{
+        position: relative;
+        font-family: 'Open Sans';
+        font-weight: 600;
+        color: #fff;
+        font-size: 25px;
+        line-height: 29px;
+        text-align: left;
+        margin-left: 10%;
+    }
+
+    .quiz-container a{
+        text-decoration: none;
+    }
+
+    .problem-areas{
+        position: relative;
+        display: grid;
+        gap: 20px;
+    }
+
+    .loose-skin{
+        position: relative;
+        background-color: #556579;
+        width: 330px;
+        height: 150px;
+        overflow: hidden;
+    }
+
+    .loose-skin .loose-h3{
+        position: relative;
+        text-align: left;
+        color: #fff;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        margin-left: 60px;
+        top: 10px;
+        width: 35%;
+    }
+
+    .loose-skin .loose-img{
+        position: absolute;
+        top: -.5px;
+        height: 150px;
+        left: 37%;;
+    }
+
+    .loose-skin:hover{
+        border: 2px solid #e2c47c;
+        background-color: #394a62;
+    }
+
+    .thin-skin{
+        position: relative;
+        background-color: #556579;
+        width: 330px;
+        height: 150px;
+
+        overflow: hidden;
+    }
+
+    .thin-skin .thin-h3{
+        position: relative;
+        text-align: left;
+        color: #fff;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        margin-left: 60px;
+        top: 10px;
+        width: 40%;
+    }
+
+    .thin-skin .thin-img{
+        position: absolute;
+        top: -.5px;
+        height: 150px;
+        left: 35.5%;;
+    }
+
+    .thin-skin:hover{
+        border: 2px solid #e2c47c;
+        background-color: #394a62;
+    }
+
+    .neck-skin{
+        position: relative;
+        background-color: #556579;
+        width: 330px;
+        height: 150px;
+
+        overflow: hidden;
+    }
+
+    .neck-skin .neck-h3{
+        position: relative;
+        text-align: left;
+        color: #fff;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        margin-left: 60px;
+        top: 20px;
+        width: 50%;
+    }
+
+    .neck-skin .neck-img{
+        position: absolute;
+        top: -.5px;
+        height: 150px;
+        left: 36%;;
+    }
+
+    .neck-skin:hover{
+        border: 2px solid #e2c47c;
+        background-color: #394a62;
+    }
+
+    .saggy-skin{
+        position: relative;
+        background-color: #556579;
+        width: 330px;
+        height: 150px;
+        overflow: hidden;
+    }
+
+    .saggy-skin .saggy-h3{
+        position: relative;
+        text-align: left;
+        color: #fff;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        margin-left: 60px;
+        top: 10px;
+        width: 30%;
+    }
+
+    .saggy-skin .saggy-img{
+        position: absolute;
+        top: -.5px;
+        height: 150px;
+        left: 36%;;
+    }
+
+    .saggy-skin:hover{
+        border: 2px solid #e2c47c;
+        background-color: #394a62;
+
+    }
+
+    label{
+        position: absolute;
+        width: 50px;
+        height: 50;
+        top: 35px;
+        left: 20px;
+    }
+
+    input{
+        position:absolute;
+        width: 25px;
+        height: 25px;
+        opacity: 0;
+    }
+
+    label span{
+        position: absolute;
+        display: block;
+        width: 25px;
+        height: 25px;
+        border: 2px solid #fff;
+        border-radius: 2px;
+        cursor: pointer;
+    }
 
 
+    label span::after{
+        content: '';
+        position: absolute;
+        left: 10px;
+        bottom: 2px;
+        width: 0px;
+        height: 0px;
+        border: solid #e2c47c;
+        border-width: 0 6px 6px 0;
+        transform: rotate(45deg);
+        opacity: 0;
+    }
 
-body{
-    background-color: #0c233f;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
+    input:checked ~ span::after{
+        width: 15px;
+        height: 35px;
+        opacity: 1;
+    }
+
+    .buttons {
+        position: relative;
+        top: 10px;
+        display: grid;
+        gap: 15px;
+    }
+
+    .buttons .cont{
+        position: relative;
+        width: 100%;
+        height: 110px;
+        text-align: left;
+        font-family: 'Open Sans';
+        font-weight: 800;
+        font-size: 20px;
+        background-color: #e2c47c;
+        padding-left: 20px;
+        border: 0;
+    }
+
+    .cont img {
+        position: relative;
+        width: 30px;
+        left: 150px;
+        top: 5px;
+    }
+
+    .buttons .skip{
+        position: relative;
+        width: 100%;
+        height: 110px;
+        text-align:center;
+        font-family: 'Open Sans';
+        font-weight: 800;
+        font-size: 20px;
+        color: #fff;
+        background-color: #0c233f;
+        padding-left: 20px;
+        border: #fff solid 2px;
+    }
+
 }
 
-.intro-page{
-    position: relative;
-}
-
-.intro-logo{
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-.intro-logo .logo{
-    position: relative;
-    width: 25%;
-    padding-top: 10px;
-}
-
-.intro-content{
-    position: relative;
-    top: 0px;
-    margin: 20px;
-}
-
-.intro-content .intro-h1{
-    position: relative;
-    font-style: normal;
-	font-weight: 700;
-	src: local('Open Sans Bold'), local('OpenSans-Bold'), url(assets/fonts/open_sans/OpenSans-bold.woff) format('woff');
-    color: #fff;
-    text-transform: capitalize;
-    text-align: left;
-    font-size: 40px;
-    line-height: 46px;
-    margin: 0;
-}
-
-.intro-content .intro-p{
-    position: relative;
-    font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 300;
-	src: local('Open Sans Light'), local('OpenSans-Light'), url(assets/fonts/open_sans/OpenSans-light.woff) format('woff');
-    color: #fff;
-    font-size: 16px;
-    line-height: 25px;
-    margin: 0;
-}
-
-.intro-content .intro-h2{
-    position: relative;
-    font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 600;
-	src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(assets/fonts/open_sans/OpenSans-semibold.woff) format('woff');
-    color: #fff;
-    text-transform: capitalize;
-    font-size: 25px;
-    line-height: 29px;
-}
-
-.goals a{
-    text-decoration: none;
-}
-
-.goals .crepey-skin{
-    position: relative;
-    background-color: #556579;
-    width: 100%;
-    height: 150px;
-    margin-bottom: 15px;
-    overflow: hidden;
-}
-
-.goals .flakey-skin{ 
-    position: relative;
-    background-color: #556579;
-    width: 100%;
-    height: 150px;
-    margin-bottom: 15px;
-    overflow: hidden;
-}
-
-.goals .firmer-skin{ 
-    position: relative;
-    background-color: #556579;
-    width: 100%;
-    height: 150px;
-    margin-bottom: 15px;
-    overflow: hidden;
-}
-
-.crepey-skin .crepey-h3{
-    position: relative;
-    text-transform: capitalize;
-    text-align: left;
-    color: #fff;
-    font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-	src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(assets/fonts/open_sans/OpenSans-semibold.woff) format('woff');
-    top: 30px;
-    margin-left: 25px;
-    width: 50%;
-}
-
-.crepey-skin .crepey-img{
-    position: absolute;
-    top: -1px;
-    height: 152px;
-    left: 35%;
-}
-
-.crepey-skin:hover{
-    border: #eaca7e solid 2px;
-}
-
-.flakey-skin .flakey-h3{
-    position: relative;
-    text-transform: capitalize;
-    text-align: left;
-    color: #fff;
-    font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-	src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(assets/fonts/open_sans/OpenSans-semibold.woff) format('woff');
-    top: 30px;
-    margin-left: 25px;
-    width: 50%;
-}
-
-.flakey-skin .flakey-img{
-    position: absolute;
-    top: -1px;
-    height: 152px;
-    left: 35%;
-}
-
-.flakey-skin:hover{
-    border: #eaca7e solid 2px;
-}
-
-.firmer-skin .firmer-h3{
-    position: relative;
-    text-transform: capitalize;
-    text-align: left;
-    color: #fff;
-    font-family: 'Open Sans';
-	font-style: normal;
-	font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-	src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(assets/fonts/open_sans/OpenSans-semibold.woff) format('woff');
-    top: 20px;
-    margin-left: 25px;
-    width: 50%; 
-}
-
-.firmer-skin .firmer-img{
-    position: absolute;
-    top: -1px;
-    height: 152px;
-    left: 35%;
-}
-
-.firmer-skin:hover{
-    border: #eaca7e solid 2px;
-}
-
-.pg1-logo{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.pg1-logo .logo-pg1{
-    position: relative;
-    width: 60%;
-    padding-top: 20px;
-}
-
-.progress-container{
-    position: relative;
-    top: 70px;
-}
- 
-.progress-container .btn-back{
-    position: relative;
-    left: -15%;
-    top: 25px;
-    width: 30px;
-    height: 25px;
-    background-color: #556579;
-    color: #fff;
-    font-size: 22px;
-    border: 0; 
-    cursor: pointer; 
-}
-
-.progress{
-    position: relative;
-}
-
-.progress-count{
-    position: relative;
-    width: 250px;
-    top: -10px;
-}
-
-.progress-count .progress-status{
-    position: relative;
-    display: block;
-    font-size: 15px;
-    font-family: 'Open Sans';
-    color: #fff;
-    left: 270px;
-    top: 12px
-}
-
-.progress-bar{
-    height: 8px;
-    width: 100%;
-    background: rgba(0,0,0,0.1)
-
-}
-
-.progress-bar .bar{
-    position: relative;
-    display: block;
-    height: 100%;
-    width: 16.6%;
-    background: #eaca7e;
-}
