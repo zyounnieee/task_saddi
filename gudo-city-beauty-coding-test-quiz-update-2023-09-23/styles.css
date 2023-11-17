@@ -206,14 +206,14 @@
         background-color: #394a62;
     }
 
-    .pg1-logo{
+    .pg-logo{
         position: absolute;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .pg1-logo .logo-pg1{
+    .pg-logo .logo-pg{
         position: relative;
         width: 60%;
         padding-top: 20px;
@@ -265,7 +265,7 @@
 
     }
 
-    .progress-bar .bar{
+    .progress-bar .bar-pg1{
         position: relative;
         display: block;
         height: 100%;
@@ -273,13 +273,13 @@
         background: #eaca7e;
     }
 
-    .quiz-container{
+    .quiz-container-pg1{
         position: absolute;
         top: 120px;
         display: grid;
     }
 
-    .quiz-container h2{
+    .quiz-container-pg1 h2{
         position: relative;
         font-family: 'Open Sans';
         font-weight: 600;
@@ -290,7 +290,7 @@
         margin-left: 10%;
     }
 
-    .quiz-container a{
+    .quiz-container-pg1 a{
         text-decoration: none;
     }
 
@@ -439,7 +439,7 @@
 
     }
 
-    label{
+    .pg1-lbl{
         position: absolute;
         width: 50px;
         height: 50;
@@ -447,14 +447,14 @@
         left: 20px;
     }
 
-    input{
+    .pg1-inp{
         position:absolute;
         width: 25px;
         height: 25px;
         opacity: 0;
     }
 
-    label span{
+    .pg1-lbl .pg1-spn{
         position: absolute;
         display: block;
         width: 25px;
@@ -465,7 +465,7 @@
     }
 
 
-    label span::after{
+    .pg1-lbl .pg1-spn::after{
         content: '';
         position: absolute;
         left: 10px;
@@ -478,12 +478,19 @@
         opacity: 0;
     }
 
-    input:checked ~ span::after{
+    .pg1-inp:checked ~ .pg1-spn::after{
         width: 15px;
         height: 35px;
         opacity: 1;
     }
 
+    .pg1-spn::after .loose-skin:focus{
+        border: 2px solid #e2c47c;
+        background-color: #394a62;
+
+    }
+
+    
     .buttons {
         position: relative;
         top: 10px;
@@ -502,6 +509,11 @@
         background-color: #e2c47c;
         padding-left: 20px;
         border: 0;
+        margin-top: 10px;
+    }
+
+    .buttons .cont:hover{
+        border: 2px solid #e2c47c;
     }
 
     .cont img {
@@ -523,7 +535,24 @@
         background-color: #0c233f;
         padding-left: 20px;
         border: #fff solid 2px;
+        margin-top: 10px;
+        margin-bottom: 60%;
     }
+
+    .buttons .skip:hover{
+        border: 2px solid #e2c47c;
+    }
+
+
+
+    .progress-bar .bar-pg2{
+        position: relative;
+        display: block;
+        height: 100%;
+        width: 33.2%;
+        background: #eaca7e;
+    }
+
 
 }
 
