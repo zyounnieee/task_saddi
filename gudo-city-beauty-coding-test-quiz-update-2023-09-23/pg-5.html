@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>City Beauty</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/85e601e986.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="pg-logo">
+      <img
+        class="logo-pg"
+        src="images/city-beauty-logo.png"
+        alt="city-beauty-logo"
+      />
+    </div>
+    <div class="progress-container">
+      <a href="pg-3.html"
+        ><button class="btn-back">
+          <i class="fa-solid fa-chevron-left"> </i></button
+      ></a>
+      <div class="progress-pg1">
+        <div class="progress-count">
+          <p class="progress-status">4/6</p>
+          <div class="progress-bar">
+            <span class="bar-pg4"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="quiz-container">
+      <h2>How often do you moisturize your skin?</h2>
+      <div class="problem-areas">
+        <p class="routine-p">
+          Choose your current level to align with your routine:
+        </p>
+        <div class="slider-routine">
+          <label class="one-lbl" for="fader">1</label>
+          <label class="ten-lbl" for="fader">10</label>
+          <label class="new-lbl" for="fader">Newcomer</label>
+          <label class="pro-lbl" for="fader">Pro</label>
+          <input
+            type="range"
+            min="10"
+            max="100"
+            value="50"
+            class="sliderrange"
+            id="fader"
+            step="10"
+            list="steprange"
+          />
+          <datalist id="steprange">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+          </datalist>
+        </div>
+        <div class="routine-level">
+          <h3 class="level-h3">Amateur</h3>
+          <p class="level-p">
+            I try to apply lotion/cream, but still not regularly
+          </p>
+        </div>
+      </div>
+      <div class="buttons-p4">
+        <button class="cont">
+          Continue <img src="images/arrow.png" alt="" />
+        </button>
+        <button class="skip">Skip</button>
+      </div>
+    </div>
+  </body>
+</html>
