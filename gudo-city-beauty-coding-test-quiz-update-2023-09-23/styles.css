@@ -1350,7 +1350,7 @@
 
     
 
-    .progress-bar .bar-pg4{
+    .progress-bar .bar-pg5{
         position: relative;
         display: block;
         height: 100%;
@@ -1482,7 +1482,7 @@
         width: 75%; 
     }
 
-    .buttons-p4 {
+    .buttons-p5 {
         position: relative;
         top: 130px;
         display: flex;
@@ -1493,7 +1493,7 @@
         padding-top: 30px;
     }
 
-    .buttons-p4 .cont{
+    .buttons-p5 .cont{
         position: relative;
         width: 310px;
         height: 110px;
@@ -1507,18 +1507,18 @@
         margin-top: 10px;
     }
 
-    .buttons-p4 .cont:hover{
+    .buttons-p5 .cont:hover{
         border: 2px solid #e2c47c;
     }
 
     .cont img {
-        position: relativeq;
+        position: relative;
         width: 30px;
         left: 150px;
         top: 5px;
     }
 
-    .buttons-p4 .skip{
+    .buttons-p5 .skip{
         position: relative;
         width: 310px;
         height: 110px;
@@ -1534,9 +1534,223 @@
         margin-bottom: 60%;
     }
 
-    .buttons-p4 .skip:hover{
+    .buttons-p5 .skip:hover{
         border: 2px solid #e2c47c;
     }
+
+    .progress-bar .bar-pg6{
+        position: relative;
+        display: block;
+        height: 100%;
+        width: 82.6%;
+        background: #eaca7e;
+    }
+
+    .pg6-lbl{
+        position: absolute;
+        width: 50px;
+        height: 50;
+        top: 30px;
+        left: 20px;
+    }
+
+    .pg6-inp{
+        position:absolute;
+        width: 25px;
+        height: 25px;
+        opacity: 0;
+    }
+
+    .pg6-lbl .pg6-spn{
+        position: absolute;
+        display: block;
+        width: 30px;
+        height: 30px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+
+    .pg6-lbl .pg6-spn::after{
+        content: '';
+        position: absolute;
+        left: 2px;
+        bottom: 2px;
+        width: 0px;
+        height: 0px;
+        border: solid #e2c47c;
+        border-width: 13px;
+        border-radius: 50%;
+        opacity: 0;
+    }
+
+    .pg6-inp:checked ~ .pg6-spn::after{
+        width: 0px;
+        height: 0px;
+        opacity: 1;
+    }
+
+    .ten-mins{
+        position: relative;
+        background-color: #556579; 
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .ten-mins:hover{
+        border: 2px solid #e2c47c;
+        background-color: #394a62;
+    }
+
+    .ten-mins .tenmins-h3{
+        position: relative;
+        text-align: left;
+        color: #fff;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        margin-left: 70px;
+        top: 15px;
+    }
+
+    .thirty-mins{
+        position: relative;
+        background-color: #556579; 
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .thirty-mins:hover{
+        border: 2px solid #e2c47c;
+        background-color: #394a62;
+    }
+
+    .thirty-mins .thirtymins-h3{
+        position: relative;
+        text-align: left;
+        color: #fff;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        margin-left: 70px;
+        top: 15px;
+    }
+
+    .one-hour{
+        position: relative;
+        background-color: #556579; 
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .one-hour:hover{
+        border: 2px solid #e2c47c;
+        background-color: #394a62;
+    }
+
+    .one-hour .onehour-h3{
+        position: relative;
+        text-align: left;
+        color: #fff;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        margin-left: 70px;
+        top: 15px;
+    }
+
+    .five-mins{
+        position: relative;
+        background-color: #556579; 
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .five-mins:hover{
+        border: 2px solid #e2c47c;
+        background-color: #394a62;
+    }
+
+    .five-mins .fivemins-h3{
+        position: relative;
+        text-align: left;
+        color: #fff;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        margin-left: 70px;
+        top: 15px;
+    }
+
+    .buttons-p6 {
+        position: relative;
+        top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding-top: 10px;
+    }
+
+    .buttons-p6 .cont{
+        position: relative;
+        width: 100%;
+        height: 110px;
+        text-align: left;
+        font-family: 'Open Sans';
+        font-weight: 800;
+        font-size: 20px;
+        background-color: #e2c47c;
+        padding-left: 20px;
+        border: 0;
+        margin-top: 10px;
+    }
+
+    .buttons-p6 .cont:hover{
+        border: 2px solid #e2c47c;
+    }
+
+    .cont img {
+        position: relative;
+        width: 30px;
+        left: 150px;
+        top: 5px;
+    }
+
+    .buttons-p6 .skip{
+        position: relative;
+        width: 100%;
+        height: 110px;
+        text-align:center;
+        font-family: 'Open Sans';
+        font-weight: 800;
+        font-size: 20px;
+        color: #fff;
+        background-color: #0c233f;
+        padding-left: 20px;
+        border: #fff solid 2px;
+        margin-top: 10px;
+        margin-bottom: 60%;
+    }
+
+    .buttons-p6 .skip:hover{
+        border: 2px solid #e2c47c;
+    }
+    
 
     
 
