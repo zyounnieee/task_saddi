@@ -23,7 +23,7 @@
     src: local('Open Sans Bold'), local('OpenSans-Bold'), url(assets/fonts/open_sans/OpenSans-bold.woff) format('woff');
 }
 
-@media only screen and  (max-width: 767px){
+/* @media only screen and  (max-width: 767px){ */
     body{
         background-color: #0c233f;
         margin: 0;
@@ -575,6 +575,7 @@
         font-style: normal;
         font-weight: 300;
         margin-left: 60px;
+        width: 80%;
         
     }
 
@@ -614,7 +615,7 @@
         font-style: normal;
         font-weight: 300;
         margin-left: 60px;
-        width: 70%;
+        width: 80%;
     }
 
     .ribose{
@@ -691,7 +692,7 @@
         font-style: normal;
         font-weight: 300;
         margin-left: 60px;
-        width: 70%;
+        width: 80%;
     }
 
     .glycerin{
@@ -732,7 +733,7 @@
         font-style: normal;
         font-weight: 300;
         margin-left: 60px;
-        width: 75%;
+        width: 80%;
         
     }
 
@@ -2023,4 +2024,311 @@
     .buttons-p7 .skip:hover{
         border: 2px solid #e2c47c;
     }
+/* } */
+@media only screen and  (min-width: 768px) and (max-width: 1023px){
+
+    .intro-logo .logo {
+        width: 80px;
+    }
+
+    .intro-content .intro-h1 {
+        width: 70%;
+    }
+
+    .goals{
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .goals .intro-h2 {
+        line-height: 29px;
+        left: -70px;
+        margin-bottom: 30px;
+    }
+
+    .goals .crepey-skin {
+        width: 350px;
+    }
+
+    .goals .flakey-skin {
+        width: 350px;
+    }
+
+    .goals .firmer-skin {
+        width: 350px;
+    }
+
+    .progress-container {
+        left: -70px;
+    }
+
+    .progress-bar {
+        width: 400px; 
+    }
+
+    .progress-count .progress-status {
+        left: 410px;
+        width: 0;
+    }
+
+    .quiz-container {
+        width: 460px;
+    }
+
+    .pg1-lbl {
+        top: 40px;
+        left: 35px;
+    }
+
+    .loose-skin .loose-img {
+        left: 54%;
+    }
+
+    .loose-skin .loose-h3 {
+        margin-left: 70px;
+        top: 20px;
+        width: 51%;
+    }
+
+    .thin-skin .thin-img {
+        left: 54%;
+    }
+
+    .thin-skin .thin-h3 {
+        margin-left: 70px;
+        top: 20px;
+        width: 51%;
+    } 
+    
+    .neck-skin .neck-img {
+        left: 54%;
+    }
+
+    .neck-skin .neck-h3 {
+        margin-left: 70px;
+        top: 20px;
+        width: 51%;
+    }
+
+    .saggy-skin .saggy-img {
+        left: 54%;
+    }
+
+    .saggy-skin .saggy-h3 {
+        margin-left: 70px;
+        top: 20px;
+        width: 51%;
+    }
+
+    .buttons .cont {
+        padding-left: 40px;
+    }
+
+    .cont img {
+        left: 240px;
+    }
+
+    .niacinamide .niacinamide-h3 {
+        margin-left: 70px;
+    }
+
+    .niacinamide .niacinamide-p {
+        margin-left: 70px;
+    }
+
+    .lipid-compound .lipid-h3 {
+        margin-left: 70px;
+    }
+
+    .problem-areas .lipid-p {
+        margin-left: 70px;
+    }
+
+    .ribose .ribose-h3 {
+        margin-left: 70px;
+    }
+
+    .ribose .ribose-p {
+        margin-left: 70px;
+    }
+
+    .jojoba-leaf .jojoba-h3 {
+        margin-left: 70px;
+    }
+    
+    .jojoba-leaf .jojoba-p {
+        margin-left: 70px;
+    }
+
+    .glycerin .glycerin-h3 {
+        margin-left: 70px;
+    }
+
+    .glycerin .glycerin-p {
+        margin-left: 70px;
+    }
+
+    .buttons-p2 .cont {
+        padding-left: 40px;
+    }
+
+    .unsure-container .unsure-img {
+        left: 10%;
+    }
+
+    .unsure-container .unsure-h3 {
+        margin-left: 80px;
+    }
+
+    .buttons-p3 .cont {
+        padding-left: 40px;
+    }
+
+    .normal-img {
+        width: 465px;
+    }
+
+    .slider-normal {
+        top: 440px;
+    }
+
+    .dry-img {
+        width: 465px;
+    }
+
+    .slider-dry {
+        top: 1350px;
+    }
+
+    .wrinkled-img {
+        width: 465px;
+    }
+
+    .slider-wrinkled {
+        top: 2250px;
+    }
+
+    .scaly-img {
+        width: 465px;
+    }
+
+    .slider-scaly {
+        top: 3155px;
+    }
+
+    .itchy-img {
+        width: 465px;
+    }
+
+    .slider-itchy {
+        top: 4060px;
+    }
+    
+    .crep-img {
+        width: 465px;
+    }
+
+    .slider-crep {
+        top: 4970px;
+    }
+
+    .halfway-h3 {
+        margin-left: 7%;
+    }
+
+    .halfway-h2 {
+        margin-left: 7%;
+        width: 80%;
+    }
+
+    .no1-p {
+        margin-left: 7%;
+    }
+
+    .treatment-p {
+        margin-left: 7%;
+        width: 80%;
+    }
+
+    .goal-p {
+        margin-left: 7%;
+        width: 80%;
+    }
+
+    .buttons-p4 .cont {
+        width: 650px; 
+        padding-left: 40px;
+    }
+
+    .buttons-p4 .cont img {
+        left: 460px;
+    }
+
+    .buttons-p4 .skip {
+        width: 650px; 
+    }
+
+    .slider-routine {
+        width: 450px;
+    }
+
+    .slider-routine .ten-lbl {
+        left: 415px;
+    }
+
+    .slider-routine .pro-lbl {
+        left: 415px;
+    }
+
+    .buttons-p5 .cont {
+        width: 460px;
+        padding-left: 40px;
+    }
+
+    .buttons-p5 .skip {
+        width: 460px; 
+    }
+    
+    .pg6-lbl {
+        left: 50px;
+    }
+
+    .ten-mins .tenmins-h3 {
+        margin-left: 20%;
+    }
+
+    .thirty-mins .thirtymins-h3 {
+        margin-left: 20%;
+    }
+
+    .one-hour .onehour-h3 {
+        margin-left: 20%;
+    }
+
+    .five-mins .fivemins-h3 {
+        margin-left: 20%;
+    }
+
+    .buttons-p6 .cont {
+        width: 460px;
+        padding-left: 40px;
+    }
+
+    .buttons-p6 .skip {
+        width: 460px;
+    }
+
+
+    
+
+
+
+
+
+
+
 }
