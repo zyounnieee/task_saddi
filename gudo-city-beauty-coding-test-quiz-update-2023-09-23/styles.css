@@ -539,6 +539,52 @@
         background: #eaca7e;
     }
 
+    .pg2-lbl{
+        position: absolute;
+        width: 50px;
+        height: 50;
+        top: 35px;
+        left: 20px;
+    }
+
+    .pg2-inp{
+        position:absolute;
+        width: 25px;
+        height: 25px;
+        opacity: 0;
+    }
+
+    .pg2-lbl .pg2-spn{
+        position: absolute;
+        display: block;
+        width: 25px;
+        height: 25px;
+        border: 2px solid #fff;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+
+    .pg2-lbl .pg2-spn::after{
+        content: '';
+        position: absolute;
+        left: 10px;
+        bottom: 2px;
+        width: 0px;
+        height: 0px;
+        border: solid #e2c47c;
+        border-width: 0 6px 6px 0;
+        transform: rotate(45deg);
+        opacity: 0;
+    }
+
+    .pg2-inp:checked ~ .pg2-spn::after{
+        width: 15px;
+        height: 35px;
+        opacity: 1;
+    }
+
+
     .niacinamide{
         position: relative;
         background-color: #556579; 
@@ -839,9 +885,17 @@
         flex-direction: column;
     }
 
+    .normal-h2{
+        display: none;
+    }
+
     .normal-img{
         position: relative;
         width: 330px;
+    }
+
+    .desktop-normal{
+        display: none;
     }
     
     .slider-normal {
@@ -979,6 +1033,14 @@
         border: 2px solid #e2c47c;
     }
 
+    .dry-h2{
+        display: none; 
+    }
+
+    .desktop-dry{
+        display: none;
+    }
+
     .dry-img{
         position: relative;
         width: 330px;
@@ -1031,6 +1093,14 @@
        text-align: right;
         width: 60px;
         left: 270px;
+    }
+
+    .wrinkled-h2{
+        display: none;
+    }
+
+    .desktop-wrinkled{
+        display: none;
     }
 
     .wrinkled-img{
@@ -1087,6 +1157,14 @@
         left: 270px;
     }
 
+    .scaly-h2{
+        display: none;
+    }
+
+    .desktop-scaly{
+        display: none;
+    }
+
     .scaly-img{
         position: relative;
         width: 330px;
@@ -1141,6 +1219,14 @@
         left: 270px;
     }
 
+    .itchy-h2{
+        display: none;
+    }
+
+    .desktop-itchy{
+        display: none;
+    }
+
     .itchy-img{
         position: relative;
         width: 330px;
@@ -1193,6 +1279,14 @@
        text-align: right;
         width: 60px;
         left: 270px;
+    }
+
+    .crep-h2{
+        display: none;
+    }
+
+    .desktop-crep{
+        display: none;
     }
 
     .crep-img{
@@ -2132,6 +2226,11 @@
         left: 240px;
     }
 
+    .pg2-lbl {
+        top: 40px;
+        left: 35px;
+    }
+
     .niacinamide .niacinamide-h3 {
         margin-left: 70px;
     }
@@ -2322,9 +2421,596 @@
         width: 460px;
     }
 
+    .overwhelmed .overwhelmed-h3 {
+        margin-left: 70px; 
+    }
 
+    .overcomplicated .overcomplicated-h3 {
+        margin-left: 70px; 
+    }
+
+    .hopelessness .hopelessness-h3 {
+        margin-left: 70px; 
+    }
+
+    .no-result .no-result-h3 {
+        margin-left: 70px; 
+        top: 16px;
+    }
+
+    .anxiety .anxiety-h3 {
+        margin-left: 70px; 
+        top: 16px;
+    }
+
+    .none-container .none-h3 {
+        margin-left: 80px;
+        top: -6px;
+    }
+
+    .buttons-p7 .cont {
+        padding-left: 40px;
+    }
+}
+@media only screen and  (min-width: 1024px){
+    .intro-logo .logo {
+        width: 10%;
+        padding-top: 20px;
+    }
+
+    .intro-content .intro-h1 {
+        width: 70%;
+        margin-top: 70px;
+        left: -20%;
+    }
+
+    .intro-content .intro-p {
+        margin-top: 20px;
+        left: -19%;
+    }
     
+    .intro-content .goals {
+        position: absolute;
+        top: -20px;
+        right: -250px;
+        width: 500px;
+    }
 
+    .crepey-skin .crepey-img {
+        left: 55%;
+    }
+
+    .crepey-skin .crepey-h3 {
+        top: 40px;
+        margin-left: 45px;
+    }
+
+    .flakey-skin .flakey-img {
+        left: 55%;
+    }
+
+    .flakey-skin .flakey-h3{
+        top: 40px;
+        margin-left: 45px;
+        width: 100%;
+    }
+
+    .firmer-skin .firmer-img {
+        left: 55%;
+    }
+
+    .firmer-skin .firmer-h3{
+        top: 30px;
+        margin-left: 45px;
+        width: 65%;
+    }
+
+    .pg-logo .logo-pg {
+        width: 70%; 
+    }
+
+    .progress-container {
+        left: -40px;
+        width: 400px;
+    }
+
+    .progress-bar {
+        width: 500px; 
+    }
+
+    .progress-count .progress-status {
+        left: 520px;
+        
+    }
+
+    .quiz-container {
+        width: 600px;
+    }
+
+    .pg1-lbl {
+        top: 60px;
+        left: 55px;
+    }
+
+    .loose-skin .loose-img {
+        left: 65%;
+    }
+
+    .loose-skin .loose-h3 {
+        margin-left: 95px;
+        top: 42px;
+        width: 51%;
+        
+    }
+
+    .thin-skin .thin-img {
+        left: 65%;
+    }
+
+    .thin-skin .thin-h3 {
+        margin-left: 95px;
+        top: 42px;
+        width: 51%;
+    } 
+    
+    .neck-skin .neck-img {
+        left: 65%;
+    }
+
+    .neck-skin .neck-h3 {
+        margin-left: 95px;
+        top: 42px;
+        width: 51%;
+    }
+
+    .saggy-skin .saggy-img {
+        left: 65%;
+    }
+
+    .saggy-skin .saggy-h3 {
+        margin-left: 95px;
+        top: 42px;
+        width: 51%;
+    }
+
+    .buttons .cont {
+        padding-left: 60px;
+    }
+
+    .cont img {
+        left: 340px;
+    }
+
+    .pg2-lbl {
+        top: 35px;
+        left: 60px;
+    }
+
+    .niacinamide .niacinamide-h3 {
+        margin-left: 100px;
+    }
+
+    .niacinamide .niacinamide-p {
+        margin-left: 100px;
+    }
+
+    .lipid-compound .lipid-h3 {
+        margin-left: 100px;
+    }
+
+    .problem-areas .lipid-p {
+        margin-left: 100px;
+    }
+
+    .ribose .ribose-h3 {
+        margin-left: 100px;
+    }
+
+    .ribose .ribose-p {
+        margin-left: 100px;
+    }
+
+    .jojoba-leaf .jojoba-h3 {
+        margin-left: 100px;
+    }
+    
+    .jojoba-leaf .jojoba-p {
+        margin-left: 100px;
+    }
+
+    .glycerin .glycerin-h3 {
+        margin-left: 100px;
+    }
+
+    .glycerin .glycerin-p {
+        margin-left: 100px;
+    }
+
+    .buttons-p2 .cont {
+        padding-left: 60px;
+    }
+
+    .unsure-container .unsure-img {
+        left: 10%;
+    }
+
+    .unsure-container .unsure-h3 {
+        margin-left: 100px;
+        top: 3px;
+    }
+
+    .buttons-p3 .cont {
+        padding-left: 40px;
+    }
+
+    .normal-img {
+        width: 465px;
+    }
+
+    .slider-normal {
+        top: 440px;
+    }
+
+    .dry-img {
+        width: 465px;
+    }
+
+    .slider-dry {
+        top: 1350px;
+    }
+
+    .wrinkled-img {
+        width: 465px;
+    }
+
+    .slider-wrinkled {
+        top: 2250px;
+    }
+
+    .scaly-img {
+        width: 465px;
+    }
+
+    .slider-scaly {
+        top: 3155px;
+    }
+
+    .itchy-img {
+        width: 465px;
+    }
+
+    .slider-itchy {
+        top: 4060px;
+    }
+    
+    .crep-img {
+        width: 465px;
+    }
+
+    .slider-crep {
+        top: 4970px;
+    }
+
+    .halfway-h3 {
+        margin-left: 7%;
+    }
+
+    .halfway-h2 {
+        margin-left: 7%;
+        width: 80%;
+    }
+
+    .no1-p {
+        margin-left: 7%;
+    }
+
+    .treatment-p {
+        margin-left: 7%;
+        width: 80%;
+    }
+
+    .goal-p {
+        margin-left: 7%;
+        width: 80%;
+    }
+
+    .buttons-p4 .cont {
+        width: 650px; 
+        padding-left: 40px;
+    }
+
+    .buttons-p4 .cont img {
+        left: 460px;
+    }
+
+    .buttons-p4 .skip {
+        width: 650px; 
+    }
+
+    .slider-routine {
+        width: 450px;
+    }
+
+    .slider-routine .ten-lbl {
+        left: 415px;
+    }
+
+    .slider-routine .pro-lbl {
+        left: 415px;
+    }
+
+    .buttons-p5 .cont {
+        width: 460px;
+        padding-left: 40px;
+    }
+
+    .buttons-p5 .skip {
+        width: 460px; 
+    }
+    
+    .pg6-lbl {
+        left: 50px;
+    }
+
+    .ten-mins .tenmins-h3 {
+        margin-left: 20%;
+    }
+
+    .thirty-mins .thirtymins-h3 {
+        margin-left: 20%;
+    }
+
+    .one-hour .onehour-h3 {
+        margin-left: 20%;
+    }
+
+    .five-mins .fivemins-h3 {
+        margin-left: 20%;
+    }
+
+    .buttons-p6 .cont {
+        width: 460px;
+        padding-left: 40px;
+    }
+
+    .buttons-p6 .skip {
+        width: 460px;
+    }
+
+    .overwhelmed .overwhelmed-h3 {
+        margin-left: 70px; 
+    }
+
+    .overcomplicated .overcomplicated-h3 {
+        margin-left: 70px; 
+    }
+
+    .hopelessness .hopelessness-h3 {
+        margin-left: 70px; 
+    }
+
+    .no-result .no-result-h3 {
+        margin-left: 70px; 
+        top: 16px;
+    }
+
+    .anxiety .anxiety-h3 {
+        margin-left: 70px; 
+        top: 16px;
+    }
+
+    .none-container .none-h3 {
+        margin-left: 80px;
+        top: -6px;
+    }
+
+    .buttons-p7 .cont {
+        padding-left: 40px;
+    }
+
+    .quiz-container .pg3-h2{
+        display: none;
+    }
+
+    .normal-img {
+        display: none;
+    }
+
+    .slider-normal .crepey-lbl {
+        left: 365px;
+    }
+
+    .normal-h2{
+        display: block;
+        top: 150px;
+        left: 150px;
+    }
+
+    .desktop-normal {
+        display: block;
+        position: absolute;
+        left: -130px;
+        top: 100px;
+        height: 600px;
+    }
+
+    .normal-skin .buttons-p3 {
+        top: 250px;
+        left: 150px;
+    }
+
+    .slider-normal {
+        top: 260px;
+        left: 340px;
+        width: 400px;
+    }
+
+    .slider-dry .crepey-lbl {
+        left: 365px;
+    }
+
+    .dry-img{
+        display: none;
+     }
+
+    .dry-h2 {
+        display: block;
+        top: 200px;
+        left: 150px;
+    }
+
+    .desktop-dry {
+        display: block;
+        position: absolute;
+        left: -130px;
+        top: 800px;
+        height: 600px;
+    }
+
+    .slider-dry {
+        top: 960px;
+        left: 340px;
+        width: 400px;
+    
+    }
+
+    .dry-skin .buttons-p3 {
+        top: 300px;
+        left: 150px;
+    }
+
+    .slider-wrinkled .crepey-lbl {
+        left: 365px;
+    }
+
+    .wrinkled-img{
+        display: none;
+    }
+
+    .wrinkled-h2 {
+        display: block;
+        top: 250px;
+        left: 150px;
+    }
+
+    .desktop-wrinkled {
+        display: block;
+        position: absolute;
+        left: -130px;
+        top: 1500px;
+        height: 600px;
+    }
+
+    .slider-wrinkled {
+        top: 1660px;
+        left: 340px;
+        width: 400px;
+    }
+
+    .wrinkled-skin .buttons-p3 {
+        top: 350px;
+        left: 150px;
+    }
+
+    .slider-scaly .crepey-lbl {
+        left: 365px;
+    }
+
+    .scaly-img{
+        display: none;
+    }
+
+    .scaly-h2 {
+        display: block;
+        top: 300px;
+        left: 150px;
+    }
+
+    .desktop-scaly {
+        display: block;
+        position: absolute;
+        left: -130px;
+        top: 2200px;
+        height: 600px;
+    }
+
+    .slider-scaly {
+        top: 2360px;
+        left: 340px;
+        width: 400px;
+    }
+
+    .scaly-skin .buttons-p3 {
+        top: 400px;
+        left: 150px;
+    }
+
+    .slider-itchy .crepey-lbl {
+        left: 365px;
+    }
+
+    .itchy-img{
+        display: none;
+    }
+
+    .itchy-h2 {
+        display: block;
+        top: 350px;
+        left: 150px;
+    }
+
+    .desktop-itchy {
+        display: block;
+        position: absolute;
+        left: -130px;
+        top: 2900px;
+        height: 600px;
+    }
+
+    .slider-itchy {
+        top: 3070px;
+        left: 340px;
+        width: 400px;
+    }
+
+    .itchy-skin .buttons-p3 {
+        top: 450px;
+        left: 150px;
+    }
+
+    .slider-crep .crepey-lbl {
+        left: 365px;
+    }
+
+    .crep-img{
+        display: none;
+    }
+
+    .crep-h2 {
+        display: block;
+        top: 400px;
+        left: 150px;
+    }
+
+    .desktop-crep {
+        display: block;
+        position: absolute;
+        left: -130px;
+        top: 3600px;
+        height: 600px;
+    }
+
+    .slider-crep {
+        top: 3770px;
+        left: 340px;
+        width: 400px;
+    }
+
+    .crep-skin .buttons-p3 {
+        top: 500px;
+        left: 150px;
+    }
+    
 
 
 
