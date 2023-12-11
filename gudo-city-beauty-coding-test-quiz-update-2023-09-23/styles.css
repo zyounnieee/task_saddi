@@ -2453,6 +2453,7 @@
     }
 }
 @media only screen and  (min-width: 1024px){
+    /* intro */
     .intro-logo .logo {
         width: 10%;
         padding-top: 20px;
@@ -2505,27 +2506,27 @@
         width: 65%;
     }
 
+    /* Page 1 */
+
     .pg-logo .logo-pg {
         width: 70%; 
     }
 
     .progress-container {
-        left: -40px;
         width: 400px;
     }
 
     .progress-bar {
-        width: 500px; 
+        width: 400px;
     }
 
     .progress-count .progress-status {
-        left: 520px;
-        
+        left: 410px;
     }
 
     .quiz-container {
-        width: 600px;
-    }
+    width: 530px;
+}
 
     .pg1-lbl {
         top: 60px;
@@ -2580,6 +2581,8 @@
     .cont img {
         left: 340px;
     }
+
+    /* Page 2 */
 
     .pg2-lbl {
         top: 35px;
@@ -2642,6 +2645,8 @@
     .buttons-p3 .cont {
         padding-left: 40px;
     }
+
+    /* Page 3 */
 
     .normal-img {
         width: 465px;
@@ -2808,6 +2813,8 @@
         padding-left: 40px;
     }
 
+    /* Page 3 */
+
     .quiz-container .pg3-h2{
         display: none;
     }
@@ -2840,7 +2847,7 @@
     }
 
     .slider-normal {
-        top: 260px;
+        top: 250px;
         left: 340px;
         width: 400px;
     }
@@ -2853,9 +2860,9 @@
         display: none;
      }
 
-    .dry-h2 {
+     .dry-h2 {
         display: block;
-        top: 200px;
+        top: 240px;
         left: 150px;
     }
 
@@ -2875,7 +2882,7 @@
     }
 
     .dry-skin .buttons-p3 {
-        top: 300px;
+        top: 340px;
         left: 150px;
     }
 
@@ -2889,7 +2896,7 @@
 
     .wrinkled-h2 {
         display: block;
-        top: 250px;
+        top: 320px;
         left: 150px;
     }
 
@@ -2908,7 +2915,7 @@
     }
 
     .wrinkled-skin .buttons-p3 {
-        top: 350px;
+        top: 420px;
         left: 150px;
     }
 
@@ -2922,7 +2929,7 @@
 
     .scaly-h2 {
         display: block;
-        top: 300px;
+        top: 400px;
         left: 150px;
     }
 
@@ -2941,7 +2948,7 @@
     }
 
     .scaly-skin .buttons-p3 {
-        top: 400px;
+        top: 500px;
         left: 150px;
     }
 
@@ -2955,7 +2962,7 @@
 
     .itchy-h2 {
         display: block;
-        top: 350px;
+        top: 480px;
         left: 150px;
     }
 
@@ -2974,9 +2981,10 @@
     }
 
     .itchy-skin .buttons-p3 {
-        top: 450px;
+        top: 580px;
         left: 150px;
     }
+    
 
     .slider-crep .crepey-lbl {
         left: 365px;
@@ -2988,7 +2996,7 @@
 
     .crep-h2 {
         display: block;
-        top: 400px;
+        top: 550px;
         left: 150px;
     }
 
@@ -3007,9 +3015,105 @@
     }
 
     .crep-skin .buttons-p3 {
-        top: 500px;
+        top: 670px;
         left: 150px;
     }
+
+    /* Page 4 */
+
+    .pg4-logo .logo-pg4 {
+        position: relative;
+        width: 80%;
+        padding-top: 25px;
+    }
+
+    .halfway .halfway-img {
+        position: absolute;
+        width: 33%;
+        height: 400px;
+        margin: 20px;
+        top: 150px;
+        left: 120px;
+    }
+
+    .halfway-h3 {
+        margin-left: 48%;
+        top: 150px;
+    }
+
+    .halfway-h2 {
+        margin-left: 48%;
+        top: 155px;
+        width: 35%;
+    }
+
+    .no1-p {
+        margin-left: 48%;
+        top: 170px;
+        width: 35%;
+    }
+
+    .treatment-p {
+        margin-left: 48%;
+        top: 180px;
+        width: 30%;
+    }
+
+    .goal-p {
+        margin-left: 48%;
+        top: 200px;
+        width: 30%;
+    }
+
+    .buttons-p4 {
+        top: 180px;
+        left: 225px;
+    }
+
+    .buttons-p4 .cont {
+        width: 500px;
+        padding-left: 40px;
+        height: 90px;
+    }
+
+    .buttons-p4 .cont img {
+        left: 330px;
+    }
+
+    .buttons-p4 .skip {
+        width: 500px;
+        height: 90px;
+    }
+
+    .slider-routine {
+        width: 530px;
+    }
+
+    .slider-routine input[type="range"] {
+        width: 530px;
+    }
+
+    .slider-routine .pro-lbl {
+        left: 500px;
+    }
+
+    .slider-routine .ten-lbl {
+        left: 500px;
+    }
+
+    .buttons-p5 .cont {
+        width: 530px;
+        padding-left: 40px;
+        height: 90px;
+    }    
+
+    .buttons-p5 .skip {
+        width: 530px;
+        padding-left: 40px;
+        height: 90px;
+    }
+
+    
     
 
 
