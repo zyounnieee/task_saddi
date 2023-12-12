@@ -23,7 +23,7 @@
     src: local('Open Sans Bold'), local('OpenSans-Bold'), url(assets/fonts/open_sans/OpenSans-bold.woff) format('woff');
 }
 
- @media only screen and  (max-width: 628px){ 
+
     body{
         background-color: #0c233f;
         margin: 0;
@@ -2163,7 +2163,7 @@
     .buttons-p7 .skip:hover{
         border: 2px solid #e2c47c;
     }
- } 
+
 @media only screen and  (min-width: 629px) and (max-width: 1023px){
 
     .intro-logo .logo {
