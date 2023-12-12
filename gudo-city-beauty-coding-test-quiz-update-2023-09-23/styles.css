@@ -23,7 +23,7 @@
     src: local('Open Sans Bold'), local('OpenSans-Bold'), url(assets/fonts/open_sans/OpenSans-bold.woff) format('woff');
 }
 
-/* @media only screen and  (max-width: 767px){ */
+ @media only screen and  (max-width: 628px){ 
     body{
         background-color: #0c233f;
         margin: 0;
@@ -1900,6 +1900,51 @@
         width: 100%;
         background: #eaca7e;
     }
+
+    .pg7-lbl{
+        position: absolute;
+        width: 50px;
+        height: 50;
+        top: 35px;
+        left: 20px;
+    }
+
+    .pg7-inp{
+        position:absolute;
+        width: 25px;
+        height: 25px;
+        opacity: 0;
+    }
+
+    .pg7-lbl .pg7-spn{
+        position: absolute;
+        display: block;
+        width: 25px;
+        height: 25px;
+        border: 2px solid #fff;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+
+
+    .pg7-lbl .pg7-spn::after{
+        content: '';
+        position: absolute;
+        left: 10px;
+        bottom: 2px;
+        width: 0px;
+        height: 0px;
+        border: solid #e2c47c;
+        border-width: 0 6px 6px 0;
+        transform: rotate(45deg);
+        opacity: 0;
+    }
+
+    .pg7-inp:checked ~ .pg7-spn::after{
+        width: 15px;
+        height: 35px;
+        opacity: 1;
+    }
     
     .overwhelmed{
         position: relative;
@@ -2118,8 +2163,8 @@
     .buttons-p7 .skip:hover{
         border: 2px solid #e2c47c;
     }
-/* } */
-@media only screen and  (min-width: 768px) and (max-width: 1023px){
+ } 
+@media only screen and  (min-width: 629px) and (max-width: 1023px){
 
     .intro-logo .logo {
         width: 80px;
@@ -3113,12 +3158,35 @@
         height: 90px;
     }
 
-    
-    
+    .buttons-p6 .cont {
+        width: 530px;
+        padding-left: 40px;
+    }
 
+    .buttons-p6 .skip {
+        width: 530px;
+    }
 
+    .problem-areas {
+        padding-top: 30px;
+    }
 
+    .pg7-lbl {
+        top: 35px;
+        left: 35px;
+    }
 
+    .overwhelmed .overwhelmed-h3 {
+        margin-left: 70px;
+        width: 65%;
+    }
 
+    .none-container .none-h3 {
+        margin-left: 90px;
+    }
+
+    .cont img {
+        left: 310px;
+    }
 
 }
